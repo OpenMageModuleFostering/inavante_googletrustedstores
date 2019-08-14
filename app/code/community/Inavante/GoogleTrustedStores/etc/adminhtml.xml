@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <report>
+            <children>
+                <salesroot>
+                    <children>
+                        <googletrustedstores translate="title" module="googletrustedstores">
+                            <title>Google Trusted Store</title>
+                            <sort_order>190</sort_order>
+                            <children>
+                                <ship_log module="googletrustedstores">
+                                    <title>Shipment Feed Log</title>
+                                    <action>adminhtml/googletrustedstores/shiplog</action>
+                                    <sort_order>10</sort_order>
+                                </ship_log>
+                            </children>
+                            <children>
+                                <cancel_log module="googletrustedstores">
+                                    <title>Canceled Feed Log</title>
+                                    <action>adminhtml/googletrustedstores/cancellog</action>
+                                    <sort_order>20</sort_order>
+                                </cancel_log>
+                            </children>
+                        </googletrustedstores>
+                    </children>
+                </salesroot>
+            </children>
+        </report>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <report>
+                        <children>
+                            <salesroot>
+                                <children>
+                                    <googletrustedstores translate="title" module="googletrustedstores">
+                                        <title>Google Trusted Store</title>
+                                        <children>
+                                            <ship_log module="googletrustedstores">
+                                                <title>Shipment Feed Log</title>
+                                            </ship_log>
+                                        </children>
+                                        <children>
+                                            <cancel_log module="googletrustedstores">
+                                                <title>Cancelled Feed Log</title>
+                                            </cancel_log>
+                                        </children>
+                                    </googletrustedstores>
+                                </children>
+                            </salesroot>
+                        </children>
+                    </report>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <googletrustedstores translate="title" module="googletrustedstores">
+                                        <title>Google Trusted Stores</title>
+                                        <sort_order>1000</sort_order>
+                                    </googletrustedstores>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Inavante_GoogleTrustedStores>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Core />
+                <Mage_Sales />
+            </depends>
+        </Inavante_GoogleTrustedStores>
+    </modules>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Inavante_GoogleTrustedStores</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Inavante_GoogleTrustedStores</summary>
+    <description>Inavante_GoogleTrustedStores</description>
+    <notes>Inavante_GoogleTrustedStores</notes>
+    <authors><author><name>Inavante_GoogleTrustedStores</name><user>Inavante_GoogleTrustedStores</user><email>Inavante_GoogleTrustedStores@aaa.ir</email></author></authors>
+    <date>2012-11-16</date>
+    <time>09:28:05</time>
+    <contents><target name="magecommunity"><dir name="Inavante"><dir name="GoogleTrustedStores"><dir name="Block"><dir name="Adminhtml"><dir name="GoogleTrustedStores"><dir name="Grid"><dir name="Renderer"><file name="Action.php" hash="9255d272e209341d4a715adcfbec8ef2"/></dir></dir><file name="Grid.php" hash="cad683633ff4ca6c917761a89251404d"/></dir><file name="GoogleTrustedStores.php" hash="ed33dc0ad3c2ac0564b8643dcc310fe1"/></dir><file name="Js.php" hash="7708d69b059c5cf90470bfc75177dcf9"/></dir><file name="Exception.php" hash="a47de57627389c650b9bf76f5c5e4d6b"/><dir name="Helper"><file name="Data.php" hash="b70c67e70565b9cbaeb9c96a553faba9"/><file name="Order.php" hash="570afda2b0e93311c7f4aa59127c22e7"/><file name="Shipment.php" hash="1bc27873d135f16cea3883df7cf77920"/></dir><dir name="Model"><file name="Log.php" hash="8d5e07156a25d41ecba5d05ab826a209"/><dir name="Mysql4"><dir name="Log"><file name="Collection.php" hash="c3040a57f244e8c212a78572c4988549"/></dir><file name="Log.php" hash="ee2f4c3a6563a2f1eae1b269de6c5dd8"/><dir name="Order"><file name="Collection.php" hash="90732ef6a31714c6a551b8e14bc2fa8c"/></dir></dir><file name="Observer.php" hash="e4bc54e31cc1af8e43bf7b9fd6ed08d5"/><dir name="System"><dir name="Config"><dir name="Backend"><file name="CronCancelled.php" hash="1d3009ff277b50b383756a6694fc5755"/><file name="CronShipped.php" hash="36b9240a4b180a19ced750d47b2128e7"/></dir><dir name="Source"><file name="CronFrequency.php" hash="f0555a16c7c13ef6088a50888d8e7ae2"/></dir></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="GoogletrustedstoresController.php" hash="e91414d30a2b71612f15ab0596c8991c"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="acbe25568ebdc8e8dfb8fe2a45fb2bbe"/><file name="config.xml" hash="ba7bf074aea5b201d6b4fd1627b8e7cf"/><file name="system.xml" hash="d18941f402c4f0b92d821bb9b35db21d"/></dir><dir name="sql"><dir name="googletrustedstores_setup"><file name="install-1.0.0.php" hash="6ad23a04eedd2043f6c1cc76fcc7bb21"/></dir></dir></dir></dir></target><target name="mageetc"><dir><dir name="modules"><file name="Inavante_GoogleTrustedStores.xml" hash="4057b7a0f9e6835a53b31b99fdf3e353"/></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="googletrustedstores.xml" hash="0ad2a41db993c60e12aae2b3f1f41e60"/></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="googletrustedstores.xml" hash="b3d143d6f30543a80439bb3f985c4b74"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.2</min><max>6.0.0</max></php></required></dependencies>
+</package>

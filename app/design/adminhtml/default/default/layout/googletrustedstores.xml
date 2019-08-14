@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_googletrustedstores_shiplog>
+        <reference name="content">
+            <block type="googletrustedstores/adminhtml_googleTrustedStores" name="googletrustedstores.index" >
+                <action method="setLogType">
+                    <params>shipped</params>
+                </action>
+            </block>
+        </reference>
+    </adminhtml_googletrustedstores_shiplog>
+    <adminhtml_googletrustedstores_cancellog>
+        <reference name="content">
+            <block type="googletrustedstores/adminhtml_googleTrustedStores" name="googletrustedstores.index" >
+                <action method="setLogType">
+                    <params>canceled</params>
+                </action>
+            </block>
+        </reference>
+    </adminhtml_googletrustedstores_cancellog>
+    
+    <adminhtml_googletrustedstores_grid>
+        <block type="googletrustedstores/adminhtml_googletrustedstores_grid" name="googletrustedstores.grid" output="toHtml"></block>
+    </adminhtml_googletrustedstores_grid>
+</layout>

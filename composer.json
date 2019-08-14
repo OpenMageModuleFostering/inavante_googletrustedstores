@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Inavante_GoogleTrustedStores",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Inavante_GoogleTrustedStores",
+    "authors": [
+    {
+        "name": "Inavante_GoogleTrustedStores",
+        "email": "Inavante_GoogleTrustedStores@aaa.ir"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
